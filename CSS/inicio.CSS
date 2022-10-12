@@ -32,6 +32,11 @@ h1 {
 
 
 /* ESTILO MENU*/
+#barra{
+    font-size: 1.5em;
+    display: block;
+    padding: 10px 20px;    
+}
 
 a {
     color: white;
@@ -52,7 +57,7 @@ div#m {
     box-sizing: border-box;
     margin-top: 60px;
     width: 100%;
-    position: absolute;
+    position: fixed;
     height: 50px;
     /*background-image: url(../imag/a.jpg);**/
     background: rgba(254, 187, 4, 0.5);
@@ -130,5 +135,19 @@ header#men {
     z-index: 100;
 }
 
+.search{
+    display: block;
+    padding: 10px;
+}
+
+.container-slider{
+    width:90px;
+    max-width: 900px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    padding: 200px 500px;
+}
 
 /*    FIN DE MENU*/
